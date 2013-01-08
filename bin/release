@@ -7,5 +7,6 @@ cat << EOF
 ---
 addons:
 config_vars:
+  web: $1/.gems/bin/bundle exec thin start -p $PORT
 
 EOF
