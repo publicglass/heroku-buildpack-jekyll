@@ -1,5 +1,8 @@
 #!/bin/sh
 
+export GEM_HOME=$1/.gems
+export PATH=$1/.gems/bin:$PATH
+
 cat << EOF
 ---
 addons:
